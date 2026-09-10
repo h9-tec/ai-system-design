@@ -785,6 +785,8 @@ Centralize routing, provider fallback, key management, pinned model
 versions, prompt caching, circuit breakers, and per-tenant quotas in one
 gateway layer instead of scattering provider logic through the codebase.
 
+For example, [Bifrost](https://github.com/maximhq/bifrost) is an open-source, OpenAI-compatible gateway that provides multi-provider routing, automatic failover, load balancing, virtual keys, and observability.
+
 ## 20. Security (mapped to OWASP Top 10 for LLM Applications, 2025)
 
 | Risk | Core mitigation |
